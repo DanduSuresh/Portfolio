@@ -161,7 +161,7 @@ function initCodeTypewriter() {
     { text: "{\n", class: "" },
     { text: '        "Java", "Spring Boot",\n', class: "code-string" },
     { text: '        "MySQL", "JavaScript"\n', class: "code-string" },
-    { text: "    };\n", class: "" },
+    { text: "    }\n", class: "" },
     { text: "}", class: "" },
   ];
 
@@ -567,3 +567,4 @@ function initUltimateGamingSetup() {
 window.addEventListener("load", () => {
   setTimeout(initUltimateGamingSetup, 200);
 });
+
